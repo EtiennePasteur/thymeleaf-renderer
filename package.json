@@ -1,0 +1,13 @@
+{
+  "name": "thymeleaf-renderer",
+  "version": "1.0.0",
+  "main": "gulpfile.js",
+  "keywords": [],
+  "author": "Etienne PASTEUR",
+  "license": "ISC",
+  "description": "Gulp script to live reload brother when changes append on thymeleaf files",
+  "devDependencies": {
+    "browser-sync": "^3.0.3",
+    "gulp": "^5.0.0"
+  }
+}
