@@ -15,7 +15,7 @@ public class ThymeleafController {
     @Autowired
     private JsonService jsonService;
 
-    @GetMapping("/{fileName}")
+    @GetMapping("/thymeleaf-renderer/{fileName}")
     public String serveFile(@PathVariable String fileName, Model model) {
         try {
             Map<String, Object> jsonData = jsonService.readJsonFile("src/main/resources/static/data.json");

@@ -35,7 +35,7 @@ docker run -p 8080:8080 -p 35729:35729 -v xxxxxx:/app/src/main/resources/templat
 
 ## Accessing the Application
 Once the container is running, you can access the application at:
-- [http://localhost:8080](http://localhost:8080)
+- [http://localhost:8080/thymeleaf-renderer/{filename}](http://localhost:8080/thymeleaf-renderer/)
 
 ## Development
 For development, you can use the following commands to build and run the application locally:
