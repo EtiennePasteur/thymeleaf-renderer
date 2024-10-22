@@ -1,4 +1,4 @@
-package com.relyens.thymeleaf_renderer;
+package com.etiennepasteur.thymeleaf_renderer;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.stereotype.Service;

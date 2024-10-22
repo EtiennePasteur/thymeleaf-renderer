@@ -1,4 +1,4 @@
-package com.relyens.thymeleaf_renderer;
+package com.etiennepasteur.thymeleaf_renderer;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
